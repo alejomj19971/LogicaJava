@@ -13,7 +13,7 @@ public class g3 {
         }
         else {
 
-            if (numwheels >= 5 && numwheels <= 10) {
+            if (numwheels <= 10) {
                 total = 25000 * numwheels;
                 System.out.println("The total amount for the wheels is :" + total);
 
