@@ -8,14 +8,15 @@ public class Feb25{
     int number;
         System.out.println("Enter number:");
     number=inputData.nextInt();
-    if (number%2==0) {
-        System.out.println("it is pair");
 
-    }
+        if (number%2!=0) {
+            System.out.println("it is not pair");
 
-    else{
-        System.out.println("it is not pair");
-    }
+        }
+
+        else{
+            System.out.println("it is  pair");
+        }
 
 
 
